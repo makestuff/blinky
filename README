@@ -1,0 +1,3 @@
+Simple blinky LED application for a CPLD. Once I have added CPLD support to
+hdlmake.py, I'll port this over to use hdlmake.py, structured the same way as
+"readback" and "swled".
