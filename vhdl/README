@@ -1,0 +1,7 @@
+Examples of building the VHDL:
+
+../../../../bin/hdlmake.py -t ../templates/null -b nexys2-1200
+../../../../bin/hdlmake.py -t ../templates/null -b aes220
+../../../../bin/hdlmake.py -t ../templates/null -b lx9
+../../../../bin/hdlmake.py -t ../templates/null -b ep2c5
+../../../../bin/hdlmake.py -t ../templates/null -b xc9572xl
