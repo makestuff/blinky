@@ -1,3 +1,0 @@
-NET "sysClk_in" LOC="P1";
-NET "led_out<0>" LOC="P34";
-NET "led_out<1>" LOC="P33";
