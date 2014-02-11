@@ -8,7 +8,7 @@ setMode -bs
 setMode -bs
 setMode -bs
 setMode -bs
-setCable -port xsvf -file top_level.xsvf
+setCable -port xsvf -file cpld.xsvf
 addDevice -p 1 -file top_level.jed
 erase -p 1
 program -p 1
