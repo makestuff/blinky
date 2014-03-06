@@ -18,12 +18,12 @@
 #===============================================================================
 # System clock and a pair of LEDs
 #===============================================================================
-NET "sysClk_in"       LOC="P85"  | IOSTANDARD=LVTTL;   # SYS_CLK
-NET "led_out<0>"      LOC="P1"   | IOSTANDARD=LVTTL;
-NET "led_out<1>"      LOC="P2"   | IOSTANDARD=LVTTL;
+NET "sysClk_in"       LOC="P85"  | IOSTANDARD=LVTTL;   # 25MHz
+NET "led_out<0>"      LOC="P1"   | IOSTANDARD=LVTTL;   # LED1
+NET "led_out<1>"      LOC="P2"   | IOSTANDARD=LVTTL;   # LED2
 
 #===============================================================================
-# Timing constraint of FX2 48MHz clock "sysClk_in"
+# Timing constraint of 25MHz clock "sysClk_in"
 #===============================================================================
 NET "sysClk_in" TNM_NET = "sysClk_in";
 TIMESPEC "TS_clk" = PERIOD "sysClk_in" 40 ns HIGH 50 %;
