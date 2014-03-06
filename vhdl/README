@@ -3,6 +3,7 @@ Examples of building the VHDL:
 ../../../../bin/hdlmake.py -t ../templates/null -b nexys2-1200 -p fpga
 ../../../../bin/hdlmake.py -t ../templates/null -b aes220
 ../../../../bin/hdlmake.py -t ../templates/null -b lx9 -p fpga
+../../../../bin/hdlmake.py -t ../templates/null -b canton-lx9 -p fpga
 ../../../../bin/hdlmake.py -t ../templates/null -b te630-45
 ../../../../bin/hdlmake.py -t ../templates/null -b te630-75
 ../../../../bin/hdlmake.py -t ../templates/null -b ep2c5 -p fpga
